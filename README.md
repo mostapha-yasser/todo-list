@@ -2,32 +2,32 @@
 
 A simple and modern To-Do List application built with:
 
-⚛️ React
- + TypeScript
+      ⚛️ React
+      + TypeScript
 
-🎨 Tailwind CSS
- (with DaisyUI for styling)
+      🎨 Tailwind CSS
+      (with DaisyUI for styling)
 
-🔄 Zustand
- for state management
+      🔄 Zustand
+      for state management
 
-🌐 React Router
- for navigation
+      🌐 React Router
+      for navigation
 
 🚀 Features
 
-➕ Add tasks
+      ➕ Add tasks
 
-✅ Mark tasks as complete/incomplete
+      ✅ Mark tasks as complete/incomplete
 
-❌ Delete tasks
+      ❌ Delete tasks
 
-✏️ Edit tasks (optional)
+      ✏️ Edit tasks (optional)
 
-🔍 Filter tasks (All / Active / Completed)
+      🔍 Filter tasks (All / Active / Completed)
 
-💾 Persist tasks in localStorage
+      💾 Persist tasks in localStorage
 
-🌓 Dark mode support (optional)
+      🌓 Dark mode support (optional)
 
-📱 Responsive UI
+      📱 Responsive UI
