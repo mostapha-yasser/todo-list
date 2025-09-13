@@ -19,12 +19,7 @@ function AboutUs() {
           styled using <span className="text-green-600">Tailwind CSS</span>, and deployed on
           <span className="text-green-600"> Vercel</span>.
         </p>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>📝 Add, edit, and remove tasks</li>
-          <li>⚡ Lightweight Zustand state management</li>
-          <li>🎨 Responsive Tailwind UI</li>
-          <li>🌐 Fast Vercel deployment</li>
-        </ul>
+     
         <p className="text-gray-600">
           This project is mainly for learning modern frontend tools. Future plans may include
           dark mode, authentication, and cloud sync 🚀.

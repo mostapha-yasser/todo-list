@@ -33,7 +33,7 @@ addTask(inputTask)
         <select
           value={inputTask.type}
           onChange={(e) => setInputTask({...inputTask,type:e.target.value})}
-          className="border-4 border-green-600 rounded-lg h-10 md:h-11 lg:h-12 px-2"
+          className="border-4 border-green-600 rounded-lg h-10 md:h-11 lg:h-12 px-2 text-sm md:text-base"
         >
           <option value="general">General</option>
           <option value="work">Work</option>
@@ -42,7 +42,7 @@ addTask(inputTask)
 
         <button
           type="submit"
-          className="bg-green-600 cursor-pointer font-bold tracking-wider text-white h-10 border-4 border-green-600 rounded-lg md:h-11 lg:h-12 px-4"
+          className="bg-green-600 text-nowrap cursor-pointer font-bold tracking-wider text-white h-10 border-4 border-green-600 text-sm md:text-base rounded-lg md:h-11 lg:h-12 px-2 lg:px-4"
         >
           Add Task
         </button>
