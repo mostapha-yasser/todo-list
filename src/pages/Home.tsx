@@ -1,10 +1,17 @@
+import TodoForm from "../components/todoComponents/TodoForm";
+import TodoList from "../components/todoComponents/TodoList";
 
 function Home() {
-    return (
-        <div>
-            home heloo
-        </div>
-    );
+
+
+
+  return (
+    <div className="">
+  <TodoForm/>
+  <TodoList/>
+    </div>
+  );
 }
 
 export default Home;
+
