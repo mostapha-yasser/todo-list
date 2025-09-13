@@ -9,17 +9,17 @@ function TodoList() {
 
 
 
-      <div className="w-full border-2 border-green-600 grid grid-cols-7 items-center h-10 rounded-t-xl font-bold">
-        <div className="text-center col-span-4">Task</div>
-        <div className="text-center">Type</div>
-        <div className="text-center">Complete</div>
-        <div className="text-center">Delete</div>
+      <div className="px-1 w-full border-2 border-green-600 grid grid-cols-7 items-center h-10 rounded-t-xl font-bold">
+        <div className="text-center col-span-4 text-sm md:text-base">Task</div>
+        <div className="text-center text-sm md:text-base tex">Type</div>
+        <div className="text-center text-sm md:text-base">Done</div>
+        <div className="text-center text-sm md:text-base">Delete</div>
       </div>
 
       {tasks.map((task) => (
         <div
           key={task.id}
-          className="w-full border-x-2 border-b-2 border-green-600 grid grid-cols-7 items-center h-10"
+          className="w-full border-x-2 border-b-2 border-green-600 grid grid-cols-7 items-center h-10 text-xs sm:text-sm lg:text-base"
         >
           <div title={task.title} className={`${task.completed?"line-through":""} text-center col-span-4 text-nowrap truncate`}>{task.title}</div>
           <div className="text-center">{task.type}</div>
