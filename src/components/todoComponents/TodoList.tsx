@@ -1,9 +1,9 @@
 import { Trash } from "lucide-react";
 import { useTodoStore } from "../../store/todo.store";
-
+import Empty from "../../../public/Empty.svg"
 function TodoList() {
     const {tasks,removeTask,toggleCompleted}=useTodoStore()
-    if (tasks.length===0){return}
+    if (tasks.length===0){return <img src={Empty} className=" w-96  h-96 mx-auto"/>}
     return (
            <div className="max-h-[560px] overflow-auto pb-10">
 
